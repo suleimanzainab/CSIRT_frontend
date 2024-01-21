@@ -402,7 +402,7 @@ export default {
     
     },
   
-    getInstitutionProfile(value) {
+    getteams(value) {
       var token = localStorage.getItem("token");
       axios
         .get(`${process.env.VUE_APP_BACKEND_URL}/team/`, {
@@ -518,7 +518,7 @@ changeHoverValue(hvalue){
     if (title != null){
       hoverValue.value  = title.value;
       console.log(hvalue.target.id, title.value);
-      this.getInstitutionProfile(title.value);
+      this.getteams(title.value);
       
     }else{
       alert.error("nothing is there");
