@@ -1,5 +1,6 @@
 {
     "name": "CSIRT_vue_cli",
+    "proxy": "https://csrit-projectss.onrender.com",
     "version": "0.1.0",
     "private": true,
     "scripts": {
